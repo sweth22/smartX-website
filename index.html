@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SmartX Product</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+
+</head>
+
+<body>
+
+<!-- ================= NAVIGATION ================= -->
+<header id="navbar">
+<nav class="nav-container">
+
+<h2 class="logo">SmartX</h2>
+
+<div class="menu-toggle" id="menuToggle">
+<span></span>
+<span></span>
+<span></span>
+</div>
+
+<ul class="nav-links" id="navLinks">
+<li><a href="index.html" class="active">Home</a></li>
+<li><a href="features.html">Features</a></li>
+<li><a href="pricing.html">Pricing</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li><a href="#" class="nav-btn">Get Started</a></li>
+</ul>
+
+</nav>
+</header>
+
+<!-- ================= HERO SECTION ================= -->
+<section class="hero">
+<div class="hero-content">
+<h1>Revolutionize Your Digital Life</h1>
+<p>AI Powered Smart Product for Modern Businesses</p>
+<a href="features.html" class="btn">Explore Now</a>
+<a href="pricing.html" class="btn secondary">View Plans</a>
+</div>
+</section>
+
+<!-- ================= FEATURES SECTION ================= -->
+<section class="features-preview">
+<h2>Why Choose SmartX?</h2>
+
+<div class="cards">
+<div class="card">
+<h3>⚡ Ultra Fast</h3>
+<p>Experience lightning speed AI processing.</p>
+</div>
+
+<div class="card">
+<h3>🔒 Secure</h3>
+<p>Advanced encryption and cloud protection.</p>
+</div>
+
+<div class="card">
+<h3>☁ Cloud Sync</h3>
+<p>Access your data anytime, anywhere.</p>
+</div>
+</div>
+
+</section>
+
+<!-- ================= ABOUT SECTION ================= -->
+<section class="about-section">
+<h2>About SmartX</h2>
+<p>
+SmartX is designed to transform digital productivity using artificial intelligence.
+Our mission is to simplify complex workflows and enhance performance.
+</p>
+</section>
+
+<!-- ================= PRICING PREVIEW ================= -->
+<section class="pricing-preview">
+<h2>Pricing Overview</h2>
+
+<table>
+<tr>
+<th>Plan</th>
+<th>Best For</th>
+<th>Price</th>
+</tr>
+
+<tr>
+<td>Basic</td>
+<td>Individuals</td>
+<td>$19</td>
+</tr>
+
+<tr>
+<td>Pro</td>
+<td>Startups</td>
+<td>$49</td>
+</tr>
+
+<tr>
+<td>Enterprise</td>
+<td>Large Companies</td>
+<td>$99</td>
+</tr>
+
+</table>
+
+<a href="pricing.html" class="btn">See Full Pricing</a>
+</section>
+
+<!-- ================= TESTIMONIALS ================= -->
+<section class="testimonials">
+<h2>What Our Clients Say</h2>
+
+<div class="cards">
+
+<div class="card">
+<p>"SmartX boosted our productivity by 40%!"</p>
+<h4>- Alex Morgan</h4>
+</div>
+
+<div class="card">
+<p>"Amazing AI integration and user experience."</p>
+<h4>- Sarah Lee</h4>
+</div>
+
+<div class="card">
+<p>"Highly recommend for modern businesses."</p>
+<h4>- David Kim</h4>
+</div>
+
+</div>
+</section>
+
+<!-- ================= NEWSLETTER FORM ================= -->
+<section class="newsletter">
+<h2>Subscribe to Our Newsletter</h2>
+
+<form action="subscribe.html">
+<input type="email" placeholder="Enter your email" required>
+<button type="submit">Subscribe</button>
+</form>
+
+</section>
+<!-- ================= UNIQUE FOOTER ================= -->
+<footer class="glass-footer">
+
+  <div class="wave"></div>
+
+  <div class="glass-container">
+
+    <div class="brand">
+      <h2>SmartX</h2>
+      <p>Innovating smarter digital experiences for tomorrow.</p>
+    </div>
+
+    <div class="links">
+      <a href="#">Home</a>
+      <a href="#">Services</a>
+      <a href="#">Projects</a>
+      <a href="#">Contact</a>
+    </div>
+
+    <div class="social">
+      <span>Follow Us</span>
+      <div class="icons">
+        <a href="#">🌐</a>
+        <a href="#">🐦</a>
+        <a href="#">📷</a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="copyright">
+    © 2026 SmartX • Crafted with ❤️
+  </div>
+
+</footer>
+
+<script>
+window.addEventListener("scroll", function() {
+  const section = document.querySelector(".about-section");
+  const position = section.getBoundingClientRect().top;
+  const screenHeight = window.innerHeight;
+
+  if (position < screenHeight - 100) {
+    section.classList.add("active");
+  }
+});
+</script>
+
+</body>
+</html>
+
+
